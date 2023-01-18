@@ -26,15 +26,18 @@ Debianin sivulta 3. Alin vaihtoehto "debian-live-11.6.0-amd64-xfce+nonfree.iso".
 Avaa VirtualBox ja paina "New"
 
 ![Kuva-1](vbyks.png) 
+
 Next
 
 ![Kuva-2](vbkaks.png)
 Next
 
 ![Kuva-3](vbkolme.png) 
+
 Next
 
 ![Kuva-4](vbnelja.png)
+
 Next
 
 Finish

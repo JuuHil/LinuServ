@@ -1,2 +1,2 @@
 # LinuServ
-Läksyjen palautukset niille nimetyissä fileissä
+Läksyjen palautukset niille nimetyissä tiedostoissa

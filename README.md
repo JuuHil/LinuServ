@@ -1,2 +1,2 @@
 # LinuServ
-Homework Repo
+Läksyjen palautukset niille nimetyissä fileissä

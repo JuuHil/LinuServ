@@ -9,6 +9,7 @@ Tein harjoituksen 18.1.2023.
         
         Versiot. 
         VirtualBox -7.0.6-155176.
+        debian-live -11.6.0
         
 
 ### 1. Asenna VirtualBox

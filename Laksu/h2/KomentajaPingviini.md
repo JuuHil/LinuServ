@@ -2,7 +2,9 @@
 - Komentoja hakemistoissa liikkumiseen. 
 - Tärkeitä hakemistoja.
 - Admin komentoja.
+
 https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+
 ## Tehtävät 
 Asenna micro-editori
 Listaa testaamasi koneen rauta, asenna lshw tarvittaessa ja selitä ja analysoi listaus.
@@ -95,10 +97,17 @@ Järjestelmänlaajuiset lokit.
 ![Kuva-11](t11.png)
 
 ### Grep komento.
+12.00-12.30
 Grep komennolla voi etsiä erilaisia merkkijonoja.
 Esimerkki 1. 
 
-![image](https://user-images.githubusercontent.com/122887067/214014185-86fc0e8d-4803-4bf8-8acc-174dfeac1ea8.png)
+![Kuva-12](https://user-images.githubusercontent.com/122887067/214014185-86fc0e8d-4803-4bf8-8acc-174dfeac1ea8.png)
 
 Haen "hostnamectl" tiedostosta sanaa "kernel". -i ennen kernel:iä etsii isolla tai pienellä kirjoitettua. 
+
+Esimerkki 2.
+
+![Kuva-13](https://user-images.githubusercontent.com/122887067/214020092-090d35d9-7c9a-4bd9-b1f6-e3090f714fc9.png)
+
+Etsin linus.txt tiedostosta sanoja missä on t kirjain. Niitä löytyi 5.
 

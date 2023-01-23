@@ -6,9 +6,7 @@
 https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 
 ## Tehtävät 
-Asenna micro-editori
-Listaa testaamasi koneen rauta, asenna lshw tarvittaessa ja selitä ja analysoi listaus.
-Apt. Asenna kolme itsellesi uutta komentoriviohjelmaa. Kokeile kutakin ohjelmaa.
+![Tehtävänanto](https://user-images.githubusercontent.com/122887067/214021140-d4ef2081-3470-4de4-a9ee-67ef6dd64938.png)
 
 ### Micro-editor
 10:35-10:40 Avasin terminalin 

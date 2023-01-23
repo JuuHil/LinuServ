@@ -65,7 +65,8 @@ Nano on yksinkertainen tekstieditori
 ![Kuva-9](t9.png)
 
 ### FHS. Esittele "Important directories" kansiot.
-            11.45-12.00
+11.45-12.00
+
             ls /
             
 Juurihakemisto, tiedostojärjestelmän yläosa.

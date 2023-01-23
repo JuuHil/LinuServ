@@ -25,10 +25,12 @@ Apt. Asenna kolme itsellesi uutta komentoriviohjelmaa. Kokeile kutakin ohjelmaa.
     
     sudo lshw -short -sanitize
     
-komento listaa virtuaali koneen käyttössä olevat komponentit.
+komento listaa virtuaalikoneen käyttössä olevat komponentit, annoin virtuaalikoneelle käyttöön  4GB muistia ja sekin näkyy 
 
 
 ![Kuva-3](t3.png)
+
+
 
 ### Apt. Asenna kolme itsellesi uutta komentoriviohjelmaa. 
 11:00-11:20

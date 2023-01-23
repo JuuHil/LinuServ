@@ -64,4 +64,23 @@ Asensin nano ohjelman komennolla
 Nano on yksinkertainen tekstieditori
 ![Kuva-9](t9.png)
 
-### FHS.
+### FHS. Esittele "Important directories" kansiot.
+            
+            ls /
+            
+Juurihakemisto, tiedostojärjestelmän yläosa.
+            
+            ls /home/
+            
+Kotihakemistot kaikille käyttäjille.
+            
+            ls /home/juuhil/
+
+Käyttäjän "juuhil" kotihakemisto.           
+            
+            ls /etc/
+           
+Järjestelmän laajuiset asetukset.
+
+![Kuva-10](t10.png)
+![Kuva-11](t11.png)

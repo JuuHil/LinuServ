@@ -65,7 +65,7 @@ Nano on yksinkertainen tekstieditori
 ![Kuva-9](t9.png)
 
 ### FHS. Esittele "Important directories" kansiot.
-            
+            11.45-12.00
             ls /
             
 Juurihakemisto, tiedostojärjestelmän yläosa.
@@ -83,4 +83,21 @@ Käyttäjän "juuhil" kotihakemisto.
 Järjestelmän laajuiset asetukset.
 
 ![Kuva-10](t10.png)
+
+            ls /media/
+
+Irotettavat mediat. Esim usbtikku
+
+            ls /var/log/
+            
+Järjestelmänlaajuiset lokit.
 ![Kuva-11](t11.png)
+
+### Grep komento.
+Grep komennolla voi etsiä erilaisia merkkijonoja.
+Esimerkki 1. 
+
+![image](https://user-images.githubusercontent.com/122887067/214014185-86fc0e8d-4803-4bf8-8acc-174dfeac1ea8.png)
+
+Haen "hostnamectl" tiedostosta sanaa "kernel". -i ennen kernel:iä etsii isolla tai pienellä kirjoitettua. 
+

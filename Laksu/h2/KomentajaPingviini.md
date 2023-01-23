@@ -13,34 +13,53 @@ Apt. Asenna kolme itsellesi uutta komentoriviohjelmaa. Kokeile kutakin ohjelmaa.
 
       sudo apt-get install micro
       
-kuva t1.
+![Kuva-1](t1.png)
 
 ### Koneen rauta
 10:40-10:45. Asensin lshw:n komennolla
 
     sudo apt-get install lswh
 
-Kuva t2.
+![Kuva-2](t2.png)
 
     
     sudo lshw -short -sanitize
     
 komento listaa virtuaali koneen käyttössä olevat komponentit.
 
-Kuva t3.
 
-### Asenna kolme itsellesi uutta komentoriviohjelmaa. 
-11:00-
+![Kuva-3](t3.png)
+
+### Apt. Asenna kolme itsellesi uutta komentoriviohjelmaa. 
+11:00-11:20
 #### Cowsay 
-Kuva t4
-Kuva t5.
+Asensin cowsay:n komennolla
+
+      sudo apt-get install cowsay
+      
+      
+![Kuva-4](t4.png)
+cowsay
+![Kuva-5](t5.png)
 
 #### Tree hakemistopuu
+Asensin tree ohjelman komennolla
 
-Kuva t6
-Kuva t7
+     
+      sudo apt-get install tree
+      
+      
+![Kuva-6](t6.png)
+tree tekee yksinkertaisen hakemistopuun
+![Kuva-7](t7.png)
 
 #### Nano text editor
+Asensin nano ohjelman komennolla
 
-Kuva t8
-Kuva t9.
+      sudo apt-get install nano
+      
+![Kuva-8](t8.png)
+Nano on yksinkertainen tekstieditori
+![Kuva-9](t9.png)
+
+### FHS.

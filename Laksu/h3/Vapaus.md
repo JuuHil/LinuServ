@@ -22,7 +22,7 @@ GPL-2.0 on vapaa lisenssi. GPL-2.0 eroaa GPL-3.0 paljon. GPL-3.0 on korjattu por
 Nano käyttää GPL-3.0 lisenssiäl. Löysin tiedot lisenssistä täältä https://git.savannah.gnu.org/cgit/nano.git/tree/COPYING.
 GPL-3.0 on vapaa lisenssi. Lisenssi antaa kenelle tahansa oikeuduen käyttää, kopioida, muuttaa ja jakaa edelleen ohjelmaa ja sen lähdekoodia.
 ## Säännöllistä
-Tein tiedoston ```sivuja``` jossa on 10 suosituinta nettisivua. Etsin kaikki .org päätteiset sivut.
+Tein tiedoston ```sivuja``` jossa on 10 suosittua nettisivua. Etsin kaikki .org päätteiset sivut.
 ![grep](https://user-images.githubusercontent.com/122887067/214799059-038c9978-efe6-4f29-9e65-a6d82a447688.png)
 ## Pipe
 

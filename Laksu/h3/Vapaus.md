@@ -25,10 +25,17 @@ GPL-3.0 on vapaa lisenssi. Lisenssi antaa kenelle tahansa oikeuduen käyttää, 
 Tein tiedoston ```sivuja``` jossa on 10 suosittua nettisivua. Etsin kaikki .org päätteiset sivut.
 ![grep](https://user-images.githubusercontent.com/122887067/214799059-038c9978-efe6-4f29-9e65-a6d82a447688.png)
 ## Pipe
+```sivuja``` tiedoston sivuista osassa oli www- alku ja osassa ei, joten poistin kaikista ne. Sen jälkeen otin listasta vain googlen sivut ja järjestelin ne aakkosjärjestykseen.
+![Pipe](https://user-images.githubusercontent.com/122887067/214805016-cfe09dcd-9bc2-4b23-855f-f9287c375b87.png)
 
 ## Regex Crossword
-
+Läpäisin Regexin Crossword, tutoriaalin
+![Regex](https://user-images.githubusercontent.com/122887067/214806902-2d5915f7-80ae-4242-b4a9-459c49bcdd91.png)
 
 ## Lähteet 
-
+https://www.gnu.org/philosophy/free-sw.html
+https://github.com/tnalpgge/rank-amateur-cowsay.
+https://en.wikipedia.org/wiki/Tree_(command).
+https://git.savannah.gnu.org/cgit/nano.git/tree/COPYING.
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
 Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)

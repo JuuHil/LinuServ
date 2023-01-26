@@ -51,4 +51,5 @@ https://github.com/tnalpgge/rank-amateur-cowsay.
 https://en.wikipedia.org/wiki/Tree_(command).
 https://git.savannah.gnu.org/cgit/nano.git/tree/COPYING.
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
 Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Governance Mechanisms: 5.1.1 - 5.1.4 (sivu 113 - 121)

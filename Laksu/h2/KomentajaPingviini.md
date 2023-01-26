@@ -5,6 +5,18 @@
 
 https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 
+## Rauta
+
+    Koneen rauta ja käyttöjärjestelmä
+    Intel i7-13700K 5,4GHz
+    Corsair Vengeance 32GB DDR5 5200Mhz
+    Strix GeForce RTX 3080 OC 10G
+    Windows 10 Pro, Versio 21H2
+    
+    Versiot. 
+    VirtualBox -7.0.6-155176.
+    debian-live -11.6.0
+
 ## Tehtävät 
 ![Tehtävänanto](https://user-images.githubusercontent.com/122887067/214021140-d4ef2081-3470-4de4-a9ee-67ef6dd64938.png)
 

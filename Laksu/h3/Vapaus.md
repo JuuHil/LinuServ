@@ -1,6 +1,19 @@
 # Vapaus ! 
 ## Tehtävät
 ![Tasks](https://user-images.githubusercontent.com/122887067/214787339-fac97f9e-19d9-4dd2-88df-28fd4d2936a8.png)
+## Rauta
+
+    Koneen rauta ja käyttöjärjestelmä
+    CPU:  i7-13700K 5,4GHz
+    RAM:  32GB DDR5 5200Mhz
+    GPU:  RTX 3080 OC 10G
+    OS:   Windows 10 Pro, Versio 21H2
+    
+    Versiot. 
+    VirtualBox -7.0.6-155176.
+    debian-live -11.6.0
+
+
 ## Tiivistelmä
 ### FSF Free Software 
 - Free Software = Vapaa ohjelmisto tarkoittaa vapaasti käytettävää ohjelmistoa

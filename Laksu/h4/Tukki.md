@@ -35,11 +35,26 @@ Artikkeli: https://opensource.com/article/22/1/word-game-linux-command-line!
 ## Tukki
 20:00-20:
 ### 1 `/var/log/syslog`
-Jan 29 20:00:28 pug systemd[1]: Startup finished in 3.905s (kernel) + 1.393s (userspace) = 5.298s
+
+    sudo cat /var/log/syslog
+    
+Jan 29 21:42:28 pug systemd[1]: Startup finished in 3.905s (kernel) + 1.393s (userspace) = 5.298s
 
 ### 2 `/var/log/auth.log`
-
+    
+    sudo cat /var/log/auth.log
+    
+x
 ### 3 `/var/log/access.log`
 
+    sudo cat /var/log/access.log
+    
+x
 ### 4 `/var/log/error.log`
+
+    sudo cat /var/log/error.log
+    
+x
+
+
 

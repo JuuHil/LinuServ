@@ -33,28 +33,74 @@
 Artikkeli: https://opensource.com/article/22/1/word-game-linux-command-line!
 
 ## Tukki
-20:00-20:
+21:05-21:50
 ### 1 `/var/log/syslog`
+Ajoin komennon
 
     sudo cat /var/log/syslog
-    
-Jan 29 21:42:28 pug systemd[1]: Startup finished in 3.905s (kernel) + 1.393s (userspace) = 5.298s
 
+valitsin lokin
+
+`Jan 30 21:06:47 pug systemd[1]: Startup finished in 3.905s (kernel) + 1.393s (userspace) = 5.298s`
+
+Ensimmäisenä on päivämäärä ja kellonaika. ```pug``` on tietokoneen nimi. ```Startup finished... = 5.298s``` kertoo kuinka nopeasti virtuaalikone boottasi. 
 ### 2 `/var/log/auth.log`
+Ajoin komennon
     
     sudo cat /var/log/auth.log
-    
-x
-### 3 `/var/log/access.log`
 
-    sudo cat /var/log/access.log
+valitsin lokin
+
+`Jan 30 21:06:46 pug systemd-logind[477]: New set seat0.`
+
+Ensimmäisenä on päivämäärä ja kellonaika. ```pug``` on tietokoneen nimi.
+Loput lokista ilmoittaa, että kirjautumis hallinta käynnistyi onnistuneesti.  ```seat0``` on oletus"seat" systemd:ssä ja se luodaan käynnistyksen yhteydessä.
+
+### 3 `/var/log/apache2/access.log`
+`No such file or director` ennenkuin käynnistin apachen komennolla `sudo systemctl start apache2.service`
+Vieläkään access.log:issa ei ole mitään ennenkuin avasin selaimesta localhostin ja tein lokeja.
+Ajoin komennon
+
+    sudo cat /var/log/apache2/access.log
     
-x
+valitsin lokin
+    
+`127.0.0.1 - - [30/Jan/2023:21:20:18 +0200] "GET /testi123 HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"`
+
+Ensimmäisenä on IP-osoite (127.0.0.1). Sitten päivämäärä ja aika + aikavyöhyke. Tämän jälkeen mitä käyttäjä kirjoitti (/testi123), jonka perässä 404, koska sivua ei löytynyt. Jonka jälkeen tietoa selaimesta ja käyttäjän käyttöjärjestelmästä. 
+
 ### 4 `/var/log/error.log`
+Ajoin komennon
 
     sudo cat /var/log/error.log
+
+valitsin lokin
+
+`[Mon Jan 30 21:18:39.598452 2023] [mpm_event:notice] [pid 913:tid 140693681413440] AH00492: caught SIGWINCH, shutting down gracefully`
+
+Ensimmäisenä on päivämäärä ja kellonaika. ```mpm_event``` ilmoittaa että kyseessä on ```notice``` eli ilmoitus. ```[pid 913...] ``` numerosarja liittyy ilmoituksen tunnistamiseen. ```SIGWINCH``` tarkoittaa SIGNAL WINDOWS CHANGE, eli kun pääte (terminal) havaitsee muutoksen ikkunan koossa, se ilmoittaa siitä ja piirtää sen uudelleen.
+
+## Lokiin kaksi eri tapahtumaa
+21:50-22:00
+
+Tein `var/log/apache2/access.log`iin kaksi eri tapahtumaa. Yhden onnistuneen ja yhden epäonnistuneen. 
+### Onnistunut 
+Kirjoitin selaimeen `localhost/` jolloin avautui onnistuneesti debianin default page ja terminaliin tuli loki 
+
+
+`127.0.0.1 - - [30/Jan/2023:21:20:13 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"`
+
+
+### Epäonnistunut
+Kirjoitin selaimeen `localhost/testi123` jolloin Firefoxissa avautui sivu jossa luki 
+
+    Not Found
+    The requested URL was not found on this server
     
-x
+Terminaliin tuli tästä tieto, jossa ilmenee virheilmoitus-404.
+`127.0.0.1 - - [30/Jan/2023:21:20:18 +0200] "GET /testi123 HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"`
 
-
-
+## Lähteet
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h4-tukki
+https://wiki.ubuntu.com/Multiseat
+https://stackoverflow.com/questions/780853/what-is-in-apache-2-a-caught-sigwinch-error

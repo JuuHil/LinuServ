@@ -102,5 +102,8 @@ Terminaliin tuli tästä tieto, jossa ilmenee virheilmoitus-404.
 
 ## Lähteet
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h4-tukki
+
 https://wiki.ubuntu.com/Multiseat
+
 https://stackoverflow.com/questions/780853/what-is-in-apache-2-a-caught-sigwinch-error
+

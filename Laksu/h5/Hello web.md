@@ -16,12 +16,12 @@
     debian-live -11.6.0
 
 ## Tiivistelmä 10:00-11:00
-Kuuntelin Indie Hackers podcastin uusimman jakson "#266 – Lessons Learned Building a $37k/mo Business in 2.5 Years with Mat De Sousa of WideBundle 
+Kuuntelin Indie Hackers podcastin uusimman jakson "#266 – Lessons Learned Building a $37k/mo Business in 2.5 Years with Mat De Sousa of WideBundle"
 https://share.transistor.fm/s/940ae75e
 
 - Jakso kertoo Mat De Sousan:n epäonnistuneista ja onnistuneista starupeista. 
 - Sousan mukaan ei tarvitse olla paras, kunhan pystyy luomaan edes jotain, mikä on muille ihmisille hyödyllistä.
 - Shopify on alustana hyvä, koska se on jo käyttäjien luottama alusta. 
 - Sousan aloitti monet startuppinsa palautteen pohjalta, mitä käyttäjät antoivat hänen luonnoksista ja ideoistaan.
-- Mat 
+
 ## Lähteet

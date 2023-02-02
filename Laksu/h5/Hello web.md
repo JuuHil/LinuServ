@@ -59,7 +59,7 @@ Nyt `localhost/~juuhil` näyttää tältä.
 
    
 ## Uusi käyttäjä
-11:30-
+11:30-11:50
 
 Aloitin komennolla
 
@@ -75,20 +75,37 @@ Vaihdoin käyttäjää ja annoin salasanan. su = switch user
 
 ![image](https://user-images.githubusercontent.com/122887067/216288125-f37f8fe6-328e-4e3e-95d7-f73c8088f6f2.png)
 
-Menin uuden käyttäjän public_html kansioon komennolla
+Tein uudelle käyttäjälle kotisivun. 
 
-    cd /home/hilt/public_html
+![hilthome](https://user-images.githubusercontent.com/122887067/216291460-2e62e0b8-e943-4a80-92ba-1c645b969876.png)
 
-
-    
-    
-   
-
-    
+Jos oikein ymmärsin tätä sivua ei tarvinnut vaihtaa.
+ 
 ## Validi HTML5 sivu
+11:50-12:05
+Vaihoin takaisin pääkäyttäjälleni.
+Siirryin public_html kansioon komennolla
+    
+    cd /home/juuhil/public_html
+
+Muokkasin aiemmin tehtyä index.html komennolla
+
+    micro index.html
+
+Nyt käyttäjän kotisivu näyttää tältä.
+
+![image](https://user-images.githubusercontent.com/122887067/216294673-d9a273c5-8594-4c5e-b530-aa440f5e1c14.png)
+
+Validor sanoi, että `Document checking completed. No errors or warnings to show.`
+
+![validi](https://user-images.githubusercontent.com/122887067/216294399-20baaa16-5e64-4e9b-8a55-a01a2d4c1bbe.png)
 
 ## Yhteenveto
-
-
+Tehtävien tekoon meni 10:00-12:10
+Erityisiä vaikeuksia ei ollut.
 
 ## Lähteet
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+https://www.indiehackers.com/podcasts
+https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/
+https://unix.stackexchange.com/questions/3568/how-to-switch-between-users-on-one-terminal

@@ -77,11 +77,25 @@ Kirjauduin takaisin pääkäyttäjällä ja käynnistin apachen uudestaan ja toi
 
 
     
-## Kirjoitusvirhe
+## Kirjoitusvirhe 
+11:20-
 Kävin luomassa kirjoitusvirheen /etc/apache/sites-available/frontpage.conf tiedostoon. 
 Poistin pari kirjainta 
-![image](https://user-images.githubusercontent.com/122887067/216933875-3f705e0e-af32-4d2b-9854-6c493009637a.png)
+![image](https://user-images.githubusercontent.com/122887067/216937088-66a21cd1-b0c0-46ac-b0fb-54ea0d31272d.png)
 
+Käynnistin apachen uudelleen
+
+    sudo systemctl restart apache2
+    
+Nyt localhost näyttää forbiddeniä
+
+sudo tail -1 /var/log/apache2/error.log
+
+`[Mon Feb 06 11:37:58.933217 2023] [authz_core:error] [pid 3272:tid 139962179647232] [client 127.0.0.1:33380] AH01630: client denied by server configuration: /home/hilt/public_sit`
+
+configtest antaa selkeämmän virheen ja huomauttaa ettei kyseistä tiedostoa ole olemassa.
+
+![image](https://user-images.githubusercontent.com/122887067/216938843-d3afd287-b1a3-4570-bb1c-409e8b164233.png)
 
 ## Lähteet
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/

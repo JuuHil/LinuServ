@@ -17,6 +17,14 @@
     debian-live -11.6.0
 
 ## Lue ja tiivistä
+https://httpd.apache.org/docs/2.4/getting-started.html
+- Uusille apachen http palvelimen käyttäjille tehty asiakirja.
+- Voit asettaa isäntänimiä testausta varten `/etc/hosts` 
+
+https://httpd.apache.org/docs/current/vhosts/name-based.html
+- Name-based suositellaan, koska sen käyttö on helpompaa.
+- Jos haluaa useita palveluita eri aliverkkotunnuksiin voi luoda VirtualHost "block"in jokaiselle palvelulle.
+
 
 ## Apachelle uusi etusivu
  10:20-11:20
@@ -78,7 +86,7 @@ Kirjauduin takaisin pääkäyttäjällä ja käynnistin apachen uudestaan ja toi
 
     
 ## Kirjoitusvirhe 
-11:20-
+11:20-11:45
 Kävin luomassa kirjoitusvirheen /etc/apache/sites-available/frontpage.conf tiedostoon. 
 Poistin pari kirjainta 
 ![image](https://user-images.githubusercontent.com/122887067/216937088-66a21cd1-b0c0-46ac-b0fb-54ea0d31272d.png)
@@ -97,5 +105,9 @@ configtest antaa selkeämmän virheen ja huomauttaa ettei kyseistä tiedostoa ol
 
 ![image](https://user-images.githubusercontent.com/122887067/216938843-d3afd287-b1a3-4570-bb1c-409e8b164233.png)
 
+Kävin palauttamassa frontpage.conf takaisin toimivaksi
+
 ## Lähteet
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+https://httpd.apache.org/docs/current/vhosts/name-based.html
+https://httpd.apache.org/docs/2.4/getting-started.html

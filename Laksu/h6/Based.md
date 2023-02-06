@@ -108,6 +108,9 @@ configtest antaa selkeämmän virheen ja huomauttaa ettei kyseistä tiedostoa ol
 Kävin palauttamassa frontpage.conf takaisin toimivaksi
 
 ## Lähteet
+
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
 https://httpd.apache.org/docs/current/vhosts/name-based.html
+
 https://httpd.apache.org/docs/2.4/getting-started.html

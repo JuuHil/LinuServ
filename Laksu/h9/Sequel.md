@@ -1,7 +1,8 @@
 # Sequel
 
 ## Tehtävät
-![image](https://user-images.githubusercontent.com/122887067/218321807-d71d6934-c3c6-4e55-855e-950d6dffa348.png)
+
+![image](https://user-images.githubusercontent.com/122887067/219304279-ef16638f-9005-4cd6-872f-2ea61efae1ee.png)
 
 ## Rauta
 

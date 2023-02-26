@@ -32,6 +32,8 @@ Laitoin sen käyntiin komennolla
 
     source env/bin/activate
     
+18:30 
+
 Loin ``requirements.txt`` tiedoston, jossa määritin mitä paketteja asennettaan, kirjoitin .txt tiedoston sisään ``django``.
 
     micro requirements.txt
@@ -46,5 +48,50 @@ Tein juudj projektin/webbisiten ja laitoin sen päälle.
 Ja se käynnistyi. 
 ![image](https://user-images.githubusercontent.com/122887067/221423559-c238cd67-25cd-4b10-b3f5-3dc4370290db.png)
 
+18:40
+
+Avasin uuden terminalin ja menin takaisin (env) juuhil@pug:~/django/juudj
+Päivitin tietokannat
+
+    ./manage.py makemigrations
+    ./manage.py migrate
+
+Tein käyttäjän juuhil
+
+    ./manage.py createsuperuser
+
+![image](https://user-images.githubusercontent.com/122887067/221424175-5d501767-0298-4355-b09a-f0ec215a3a0f.png)
+
+18:50
+Loin mallin johon DJAngo pystyy tehdä tietokannan
+
+    ./manage.py startapp products
+
+Lisäsin asennettujen sovellusten listaan juuri luodun ``products``
+
+    micro juudj/settings.py
     
- 
+![image](https://user-images.githubusercontent.com/122887067/221424592-8c0cfc04-cf40-4105-8efc-52de5ac5368d.png)
+
+Tein tauluja johon voi lisätä tuotteiden nimen, hinnan ja kuvauksen
+
+    micro products/models.py
+  
+![image](https://user-images.githubusercontent.com/122887067/221425183-5212e01a-2e1b-4fc7-993e-c245dd2035bf.png)
+
+Päivitin tietokannat.
+   
+    ./manage.py makemigrations
+    ./manage.py migrate
+
+Rekisteröin tietokannan
+
+    micro products/admin.py
+    
+![image](https://user-images.githubusercontent.com/122887067/221425039-59d0494d-e030-4659-82d9-de214441d00c.png)
+
+Yhteenveto, kaikki toimivat hyvin ja nyt pystyn lisätä tuotteita listaan.
+
+![image](https://user-images.githubusercontent.com/122887067/221425458-65caa528-d8e4-4183-9da7-919a678092f1.png)
+
+![image](https://user-images.githubusercontent.com/122887067/221425548-2ea9f340-135d-4179-ae50-22fc721155dd.png)

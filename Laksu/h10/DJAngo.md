@@ -73,11 +73,15 @@ Lisäsin asennettujen sovellusten listaan juuri luodun ``products``
     
 ![image](https://user-images.githubusercontent.com/122887067/221424592-8c0cfc04-cf40-4105-8efc-52de5ac5368d.png)
 
+19:00
+
 Tein tauluja johon voi lisätä tuotteiden nimen, hinnan ja kuvauksen
 
     micro products/models.py
   
 ![image](https://user-images.githubusercontent.com/122887067/221425183-5212e01a-2e1b-4fc7-993e-c245dd2035bf.png)
+
+19:10
 
 Päivitin tietokannat.
    
@@ -89,6 +93,8 @@ Rekisteröin tietokannan
     micro products/admin.py
     
 ![image](https://user-images.githubusercontent.com/122887067/221425039-59d0494d-e030-4659-82d9-de214441d00c.png)
+
+19:15
 
 Yhteenveto, kaikki toimivat hyvin ja nyt pystyn lisätä tuotteita listaan.
 

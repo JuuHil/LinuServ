@@ -59,7 +59,7 @@ Tein mikrolla tekstitiedoston johon kirjoitin django ja asensin sen. Tarkistin m
 
 ![image](https://user-images.githubusercontent.com/122887067/222382926-c708558b-e60c-4d12-95d9-aeadc482e8c7.png)
 
-#### Connect Python to Apache using mod_wsgi
+#### Apachan ja djangon yhdistys
 
 Komennolla ``sudoedit /etc/apache2/sites-available/juudj.conf`` menin muokkaamaan conf tiedosta ja kopion https://terokarvinen.com/2022/deploy-django/ sivulta pohjan ja muokkasin sitä.
 
@@ -98,8 +98,29 @@ Otin debugin poist päältä
 Käynnistin apache2 uudestaan
 ![image](https://user-images.githubusercontent.com/122887067/222396362-a22de406-6713-41db-9652-6de42dd5427b.png)
 12:05 Tyyli kuntoon
+
+``micro juuhil/setting.py``
+
 ![image](https://user-images.githubusercontent.com/122887067/222398373-f44d24fa-17fe-4d07-ab2b-acf7bd13f1e1.png)
 
+12:20
+Ei toimi, tutkin asiaa ja olin laittanut sen väärälle riville. 
+
+![image](https://user-images.githubusercontent.com/122887067/222401254-c098f250-feea-4827-a805-e561da1697af.png)
+
+Siirtin ``import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')`` riville 120.
+
+![image](https://user-images.githubusercontent.com/122887067/222401482-ae439711-8923-4a8d-9089-c623a3281a46.png)
+
+![image](https://user-images.githubusercontent.com/122887067/222401624-1f60b762-dd95-4d43-bb68-7d3ef08dd146.png)
+
+12:25 
+Nyt toimii 
+![image](https://user-images.githubusercontent.com/122887067/222401753-add72049-35cf-4f54-a151-eb559f7fdd48.png)
+
+## Yhteenveto
+Aikaa kului vähän yli 2 tuntia. Ja ongelmia ilmeni. Kaikki saatiin kuitenkin loppujenlopuksi toimimaan.
 
 ## Lähteet
 

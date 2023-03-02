@@ -84,17 +84,22 @@ Ratkaisu löytyi, muistin Teron luennolta rakennusteline keskustelun :) , tein u
         
 ![image](https://user-images.githubusercontent.com/122887067/222393168-cc0c39e5-52fa-4d70-9943-4e1117244ca4.png)
 
+11:50
 Tein käyttäjän jolla pääsen kirjautumaan localhosta/admin/
 
         ./manage.py makemigrations
         ./manage.py migrate
         ./manage.py createsuperuser
 
+Tein käyttäjän
 ![image](https://user-images.githubusercontent.com/122887067/222395212-133ef18b-941f-4ce0-9bab-fa3f5b4744ab.png)
-
+Otin debugin poist päältä
 ![image](https://user-images.githubusercontent.com/122887067/222395835-39a60b2f-c297-4625-814c-871f98df10e2.png)
-
+Käynnistin apache2 uudestaan
 ![image](https://user-images.githubusercontent.com/122887067/222396362-a22de406-6713-41db-9652-6de42dd5427b.png)
+12:05 Tyyli kuntoon
+![image](https://user-images.githubusercontent.com/122887067/222398373-f44d24fa-17fe-4d07-ab2b-acf7bd13f1e1.png)
+
 
 ## Lähteet
 

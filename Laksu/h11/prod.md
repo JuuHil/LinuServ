@@ -69,8 +69,32 @@ Asensin WSGI moduulin ja tein configtestin.
 
 ![image](https://user-images.githubusercontent.com/122887067/222384240-521acbd6-e7d4-41cd-9dc3-de7fd20a58c6.png)
 
-11:20
+11:10
+En saanut sivua toimimaan ja ihmettelen jonkin aikaa ratkaisua.
 
+![image](https://user-images.githubusercontent.com/122887067/222391100-3e436de7-983e-4ba6-8d88-9141b6fc564d.png)
+
+11:45
+Ratkaisu löytyi, muistin Teron luennolta rakennusteline keskustelun :) , tein uuden kansion ja tein aikaisemmin tehdyt asiat. Tiivistettynä.
+
+        rm-r juudj/
+        django-admin startproject juudj
+        sudoedit /etc/apache2/sites-available/juudj.conf
+        curl -s localhost|grep title
+        
+![image](https://user-images.githubusercontent.com/122887067/222393168-cc0c39e5-52fa-4d70-9943-4e1117244ca4.png)
+
+Tein käyttäjän jolla pääsen kirjautumaan localhosta/admin/
+
+        ./manage.py makemigrations
+        ./manage.py migrate
+        ./manage.py createsuperuser
+
+![image](https://user-images.githubusercontent.com/122887067/222395212-133ef18b-941f-4ce0-9bab-fa3f5b4744ab.png)
+
+![image](https://user-images.githubusercontent.com/122887067/222395835-39a60b2f-c297-4625-814c-871f98df10e2.png)
+
+![image](https://user-images.githubusercontent.com/122887067/222396362-a22de406-6713-41db-9652-6de42dd5427b.png)
 
 ## Lähteet
 

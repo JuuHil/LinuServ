@@ -39,6 +39,10 @@ Siirsin projektikansion takaisin ``/home/juuhil/publicwsgi/juudj``
 
 ### c) Projektikansiolla väärät oikeudet ('chmod ugo-rwx teroco/', 'chmod u+rx teroco/')
 
+![image](https://user-images.githubusercontent.com/122887067/222984802-4dfe668d-757b-4a16-a9bf-08485adf085a.png)
+
+![image](https://user-images.githubusercontent.com/122887067/222984888-e4e4aa5d-08c6-4809-af76-8096092af0b0.png)
+
 ### d) Kirjoitusvirhe Apachen asetustiedostossa (/etc/apache2/sites-available/terokarvinen.conf tms)
 
 ### e) Apachen WSGI-moduli puuttuu ('sudo apt-get purge libapache2-mod-wsgi-py3' tms)

@@ -43,6 +43,9 @@ Siirsin projektikansion takaisin ``/home/juuhil/publicwsgi/juudj``
 
 ![image](https://user-images.githubusercontent.com/122887067/222984888-e4e4aa5d-08c6-4809-af76-8096092af0b0.png)
 
+![image](https://user-images.githubusercontent.com/122887067/222989025-32e7844b-88d1-48ed-9abe-5c05b3f8faaf.png)
+
+
 ### d) Kirjoitusvirhe Apachen asetustiedostossa (/etc/apache2/sites-available/terokarvinen.conf tms)
 
 ### e) Apachen WSGI-moduli puuttuu ('sudo apt-get purge libapache2-mod-wsgi-py3' tms)

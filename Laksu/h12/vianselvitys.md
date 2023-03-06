@@ -22,6 +22,9 @@
 ![image](https://user-images.githubusercontent.com/122887067/222976323-7890ad1e-4ed8-4621-8ae3-28a0955bd98a.png)
 
 ### b) Django-projektikansio väärässä paikassa (siis se, jossa on manage.py)
+
+21:45-22:05
+
 Alkutilanne
 
 ![image](https://user-images.githubusercontent.com/122887067/222976341-02f37186-3b0e-401a-83c3-184d0803206e.png)
@@ -38,6 +41,7 @@ Lopputulos
 Siirsin projektikansion takaisin ``/home/juuhil/publicwsgi/juudj``
 
 ### c) Projektikansiolla väärät oikeudet ('chmod ugo-rwx teroco/', 'chmod u+rx teroco/')
+22:05-22:30
 
 Otin rwx (read, write, execute) pois käytöstä. Ja sain paljon virheilmoituksia
 
@@ -59,6 +63,8 @@ Loputilanne
         sudo systemctl restart apache2
         
 ![image](https://user-images.githubusercontent.com/122887067/223053687-6910baae-0567-49eb-bbc4-1a37ad44dd15.png)
+
+Kävin poistamassa # ja ajoin ``sudo systemctl restart apache2``
 
 Lopputilanne
 

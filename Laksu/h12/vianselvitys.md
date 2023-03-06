@@ -39,14 +39,30 @@ Siirsin projektikansion takaisin ``/home/juuhil/publicwsgi/juudj``
 
 ### c) Projektikansiolla väärät oikeudet ('chmod ugo-rwx teroco/', 'chmod u+rx teroco/')
 
+Otin rwx (read, write, execute) pois käytöstä. Ja sain paljon virheilmoituksia
+
 ![image](https://user-images.githubusercontent.com/122887067/222984802-4dfe668d-757b-4a16-a9bf-08485adf085a.png)
+
+Annoin oikeudet takaisin
 
 ![image](https://user-images.githubusercontent.com/122887067/222984888-e4e4aa5d-08c6-4809-af76-8096092af0b0.png)
 
+Loputilanne
+
 ![image](https://user-images.githubusercontent.com/122887067/222989025-32e7844b-88d1-48ed-9abe-5c05b3f8faaf.png)
 
-
 ### d) Kirjoitusvirhe Apachen asetustiedostossa (/etc/apache2/sites-available/terokarvinen.conf tms)
+10:00-10:15
+
+![image](https://user-images.githubusercontent.com/122887067/223052712-b7418710-4928-4a95-9f72-2ca1860bb4ca.png)
+
+        sudo systemctl restart apache2
+        
+![image](https://user-images.githubusercontent.com/122887067/223053687-6910baae-0567-49eb-bbc4-1a37ad44dd15.png)
+
+Lopputilanne
+
+![image](https://user-images.githubusercontent.com/122887067/223054054-a0ec8b7f-c5eb-4bf3-a4fe-a723acd3d417.png)
 
 ### e) Apachen WSGI-moduli puuttuu ('sudo apt-get purge libapache2-mod-wsgi-py3' tms)
 

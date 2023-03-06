@@ -72,6 +72,12 @@ Lopputilanne
 
 ### e) Apachen WSGI-moduli puuttuu ('sudo apt-get purge libapache2-mod-wsgi-py3' tms)
 
+![image](https://user-images.githubusercontent.com/122887067/223055237-018d2003-3db0-408e-924c-6259ea664ab2.png)
+
+![image](https://user-images.githubusercontent.com/122887067/223055407-0fb0594b-16df-4d56-ac2f-9c1b03d4d586.png)
+
+``sudo apt-get install libapache2-mod-wsgi-py3``
+
 ### f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa (settings.py, ja DEBUG=False)
 
 

@@ -98,11 +98,23 @@ Lopputilanne, sivu toimii jälleen.
 
 ### f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa (settings.py, ja DEBUG=False)
 
+Menin ``setting.py`` tiedostoon ja muokkasin ``ALLOWED_HOSTS`` kohtaa.
+
 ![image](https://user-images.githubusercontent.com/122887067/223057912-8c001f76-8e79-4dba-8238-642491cb0cbc.png)
+
+Käynnistin apachen uudestaan
 
 ``sudo systemctl restart apache2``
 
-Bad Request 400
+Avasin selaimen ja sain ``Bad Request 400``
+
 ![image](https://user-images.githubusercontent.com/122887067/223058296-5fb8fb00-3ea6-46ae-b87a-5c40e4b41485.png)
 
+Kävin muokkamassa ``settings.py`` tiedoston kuntoon ja käynnistin apachen uudelleen, nyt sivu toimii taas.
+
+
+## Lähteet
+https://terokarvinen.com/2022/deploy-django/
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
 

@@ -15,11 +15,6 @@
     Versiot. 
     VirtualBox -7.0.6-155176.
     debian-live -11.6.0
-    
-### a) Kirjoitusvirhe Python-tiedostossa
-![image](https://user-images.githubusercontent.com/122887067/222976341-02f37186-3b0e-401a-83c3-184d0803206e.png)
-
-![image](https://user-images.githubusercontent.com/122887067/222976323-7890ad1e-4ed8-4621-8ae3-28a0955bd98a.png)
 
 ### b) Django-projektikansio väärässä paikassa (siis se, jossa on manage.py)
 
@@ -47,7 +42,8 @@ Nyt sivu toimii jälleen.
 ### c) Projektikansiolla väärät oikeudet ('chmod ugo-rwx teroco/', 'chmod u+rx teroco/')
 22:05-22:30
 
-Otin rwx (read, write, execute) pois käytöstä. Ja sain paljon virheilmoituksia
+Otin rwx (read, write, execute) pois käytöstä. 
+Kokeilen runserver, mutta sain paljon virheilmoituksia
 
 ![image](https://user-images.githubusercontent.com/122887067/222984802-4dfe668d-757b-4a16-a9bf-08485adf085a.png)
 
@@ -96,7 +92,8 @@ Lopputilanne, sivu toimii jälleen.
 
 ![image](https://user-images.githubusercontent.com/122887067/223057563-8b01bc24-6a5b-467f-bc61-9556644f3c22.png)
 
-### f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa (settings.py, ja DEBUG=False)
+### a) Kirjoitusvirhe Python-tiedostossa f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa (settings.py, ja DEBUG=False)
+10:30-10:55
 
 Menin ``setting.py`` tiedostoon ja muokkasin ``ALLOWED_HOSTS`` kohtaa.
 

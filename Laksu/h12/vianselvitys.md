@@ -29,16 +29,20 @@ Alkutilanne
 
 ![image](https://user-images.githubusercontent.com/122887067/222976341-02f37186-3b0e-401a-83c3-184d0803206e.png)
 
-Siirsin projektikansion pois.
+Siirsin projektikansion pois /publicwsgi alta.
 
 ![image](https://user-images.githubusercontent.com/122887067/222976872-46be1457-8872-4cde-a11f-7916492802c9.png)
 ![image](https://user-images.githubusercontent.com/122887067/222976889-9e8bee8e-f247-4678-9083-7ba23e80f429.png)
 
-Lopputulos
+Sivu antaa nyt forbiddeniä.
 
 ![image](https://user-images.githubusercontent.com/122887067/222976913-08f0f8ce-7484-4b84-88f2-21307529325a.png)
 
 Siirsin projektikansion takaisin ``/home/juuhil/publicwsgi/juudj``
+Nyt sivu toimii jälleen. 
+
+![image](https://user-images.githubusercontent.com/122887067/223056701-0980bc56-7c68-46b3-95f4-4941d6bda2c1.png)
+
 
 ### c) Projektikansiolla väärät oikeudet ('chmod ugo-rwx teroco/', 'chmod u+rx teroco/')
 22:05-22:30
@@ -58,15 +62,19 @@ Loputilanne
 ### d) Kirjoitusvirhe Apachen asetustiedostossa (/etc/apache2/sites-available/terokarvinen.conf tms)
 10:00-10:15
 
-![image](https://user-images.githubusercontent.com/122887067/223052712-b7418710-4928-4a95-9f72-2ca1860bb4ca.png)
+Kävin muokkaamassa TDIR /etc/apache2/sites-available/juu50
+
+![image](https://user-images.githubusercontent.com/122887067/223055910-2d473d30-1894-4003-beb9-b32385429960.png)
+Käynnistin apachen uudestaan komennolla
 
         sudo systemctl restart apache2
         
+Sivu antoi forbiddeniä        
 ![image](https://user-images.githubusercontent.com/122887067/223053687-6910baae-0567-49eb-bbc4-1a37ad44dd15.png)
 
 Kävin poistamassa # ja ajoin ``sudo systemctl restart apache2``
 
-Lopputilanne
+Lopputilanne, kaikki toimii jälleen.
 
 ![image](https://user-images.githubusercontent.com/122887067/223054054-a0ec8b7f-c5eb-4bf3-a4fe-a723acd3d417.png)
 

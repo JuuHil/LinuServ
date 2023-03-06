@@ -79,13 +79,30 @@ Lopputilanne, kaikki toimii jälleen.
 ![image](https://user-images.githubusercontent.com/122887067/223054054-a0ec8b7f-c5eb-4bf3-a4fe-a723acd3d417.png)
 
 ### e) Apachen WSGI-moduli puuttuu ('sudo apt-get purge libapache2-mod-wsgi-py3' tms)
+10:15-10:30
 
+Menin projekti kansioon ja poistin ``libapache2-mod-wsgi-py3``
 ![image](https://user-images.githubusercontent.com/122887067/223055237-018d2003-3db0-408e-924c-6259ea664ab2.png)
+
+Yritin käynnistää apache2 uudestaan, mutta se ei onnistunut
 
 ![image](https://user-images.githubusercontent.com/122887067/223055407-0fb0594b-16df-4d56-ac2f-9c1b03d4d586.png)
 
+Asensin ``libapache2-mod-wsgi-py3`` takaisin komenolla
+
 ``sudo apt-get install libapache2-mod-wsgi-py3``
 
+Lopputilanne, sivu toimii jälleen.
+
+![image](https://user-images.githubusercontent.com/122887067/223057563-8b01bc24-6a5b-467f-bc61-9556644f3c22.png)
+
 ### f) Väärät domain-nimet ALLOWED_HOSTS-kohdassa (settings.py, ja DEBUG=False)
+
+![image](https://user-images.githubusercontent.com/122887067/223057912-8c001f76-8e79-4dba-8238-642491cb0cbc.png)
+
+``sudo systemctl restart apache2``
+
+Bad Request 400
+![image](https://user-images.githubusercontent.com/122887067/223058296-5fb8fb00-3ea6-46ae-b87a-5c40e4b41485.png)
 
 

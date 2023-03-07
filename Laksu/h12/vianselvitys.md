@@ -61,6 +61,7 @@ Loputilanne
 Kävin muokkaamassa TDIR /etc/apache2/sites-available/juu50
 
 ![image](https://user-images.githubusercontent.com/122887067/223055910-2d473d30-1894-4003-beb9-b32385429960.png)
+
 Käynnistin apachen uudestaan komennolla
 
         sudo systemctl restart apache2

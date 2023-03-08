@@ -46,7 +46,34 @@ En antanut C++ mitään nimeä joten siitä tuli ``a.out``, vaihdoin vielä sen 
 
 ![image](https://user-images.githubusercontent.com/122887067/223693953-d67e32b6-0488-46d1-994d-d260d283859c.png)
 
-## b) Greet me
+## b) Greet me Javalla
+
+Tein javalla tervehdys ohjelman.
+
+Jos käyttäjä ei syötä mitään merkkejä komennon ``java Greetme`` perään, pyytää ohjelma antamaan nimen.
+
+![image](https://user-images.githubusercontent.com/122887067/223705268-37b9a4ef-6290-4a8d-b121-0130351b7582.png)
+
+![image](https://user-images.githubusercontent.com/122887067/223703838-3a54b30c-5c21-407e-9a2c-244999c30aea.png)
+
+## c) 1/2 Greet me Pythonilla
+
+Tein pythonilla tervehdys ohjelman.
+
+Jos käyttäjä ei syötä mitään merkkejä komennon ```python3 greetme.py`` perään, pyytää ohjelma antamaan nimen.
+
+![image](https://user-images.githubusercontent.com/122887067/223705017-c49a9481-d53e-48dd-9036-86ae7782ed53.png)
+
+## Lähteet
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
+https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+
+https://www.programiz.com/python-programming/if-elif-else
+
+https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/
+
 
 
 

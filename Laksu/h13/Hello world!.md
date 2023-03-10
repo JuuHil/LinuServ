@@ -42,7 +42,7 @@ Hello world C++
 
 ![image](https://user-images.githubusercontent.com/122887067/223694038-806ea799-3817-44b1-9c38-33d3b3f497a2.png)
 
-En antanut C++ mitään nimeä joten siitä tuli ``a.out``, vaihdoin vielä sen nimeksi ``hello-cpp``
+En antanut C++ mitään nimeä joten siitä tuli ``a.out``, tallensin sen uudestaan vielä nimellä ``hello-cpp``
 
 ![image](https://user-images.githubusercontent.com/122887067/223693953-d67e32b6-0488-46d1-994d-d260d283859c.png)
 

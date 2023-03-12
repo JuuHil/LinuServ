@@ -26,7 +26,7 @@ Tein komennon joka tulostaa päivämäärän.
 
 ![image](https://user-images.githubusercontent.com/122887067/224556491-3e0ac125-2cc8-47ec-b219-bd376222997b.png)
 
-Minulla ei ollut execute oikeuksia joten annoin ne kaikille. 
+Minulla ei ollut execute oikeuksia joten annoin ne kaikille käyttäjille. 
 
 ![image](https://user-images.githubusercontent.com/122887067/224556513-979814be-0e3f-480f-b19a-98ef44661277.png)
 
@@ -57,6 +57,7 @@ Toimii kaikilla käyttäjillä!
 ![image](https://user-images.githubusercontent.com/122887067/224563135-b329ee35-5f5c-482c-b73f-b4d55304dcb4.png)
 
 ### c) Tee Linuxiin komento, joka tekee jotain monelle tiedostolle
+20:00-20:30
 
     micro errori
 
@@ -66,11 +67,7 @@ Toimii
 
 ![image](https://user-images.githubusercontent.com/122887067/224564978-29beb270-1af1-418c-a4d3-ba33eeebebcd.png)
 
-Execute oikeudet.
-
-![image](https://user-images.githubusercontent.com/122887067/224565026-8398d894-b2dc-4382-bf6b-8775641aedad.png)
-
-    sudo cp errori
-
 
 ### Lähteet
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
